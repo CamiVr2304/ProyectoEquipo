@@ -8,7 +8,7 @@
  */
 namespace ProyectoEquipo
 {
-	partial class MainForm
+	partial class FrmLogin
 	{
 		/// <summary>
 		/// Designer variable used to keep track of non-visual components.

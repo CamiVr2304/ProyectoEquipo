@@ -16,9 +16,9 @@ namespace ProyectoEquipo
 	/// <summary>
 	/// Description of MainForm.
 	/// </summary>
-	public partial class MainForm : Form
+	public partial class FrmLogin : Form
 	{
-		public MainForm()
+		public FrmLogin()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -38,6 +38,11 @@ namespace ProyectoEquipo
     else
     {
         MessageBox.Show("Bienvenido " + txtUsuario.Text);
+
+
+        FrmMenu menu = new FrmMenu();
+        menu.Show();
+        this.Hide();
     }
 }
 		void BtnSalirClick(object sender, EventArgs e)
