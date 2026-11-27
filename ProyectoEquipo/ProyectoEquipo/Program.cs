@@ -1,15 +1,15 @@
 ﻿/*
  * Creado por SharpDevelop.
- * Usuario: jaime
- * Fecha: 25/11/2026
- * Hora: 06:56 p. m.
+ * Usuario: CC2_PC17
+ * Fecha: 26/11/2026
+ * Hora: 07:31 a. m.
  * 
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
 using System;
 using System.Windows.Forms;
 
-namespace ProyectoEquipo
+namespace Mayor_Menor_y_Promedio
 {
 	/// <summary>
 	/// Class with program entry point.
@@ -24,7 +24,7 @@ namespace ProyectoEquipo
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new FrmLogin());
+			Application.Run(new MainForm());
 		}
 		
 	}
