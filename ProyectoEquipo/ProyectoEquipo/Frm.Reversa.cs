@@ -56,6 +56,8 @@ namespace ProyectoEquipo
 				}
 				
 				txtResultado.Text=resultado;
+				
+				
 			}
 		}
 	}
