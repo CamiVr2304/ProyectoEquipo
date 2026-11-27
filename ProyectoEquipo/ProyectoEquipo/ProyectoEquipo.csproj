@@ -50,6 +50,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm.Reversa.cs" />
+    <Compile Include="Frm.Reversa.Designer.cs">
+      <DependentUpon>Frm.Reversa.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenu.cs" />
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
@@ -69,6 +73,9 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Frm.Reversa.resx">
+      <DependentUpon>Frm.Reversa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>
