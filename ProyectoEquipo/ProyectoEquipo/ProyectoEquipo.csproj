@@ -62,6 +62,10 @@
     <Compile Include="FrmOrdenar.Designer.cs">
       <DependentUpon>FrmOrdenar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVocales.cs" />
+    <Compile Include="FrmVocales.Designer.cs">
+      <DependentUpon>FrmVocales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -77,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOrdenar.resx">
       <DependentUpon>FrmOrdenar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVocales.resx">
+      <DependentUpon>FrmVocales.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
